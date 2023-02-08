@@ -1,0 +1,19 @@
+…or push an existing repository from the command line
+	git remote add origin https://github.com/EusebioJava/Portifolio.git
+	git branch -M main
+	git push -u origin main
+
+PS C:\Users\eulim\OneDrive\Documentos\JavaScrip\portifolionovo> git remote -v 
+Eusebiojava     https://github.com/EusebioJava/Portfolio-3way.git (fetch)
+Eusebiojava     https://github.com/EusebioJava/Portfolio-3way.git (push)
+origin  https://github.com/EusebioJava/Portifolio.git (fetch)
+origin  https://github.com/EusebioJava/Portifolio.git (push)
+
+PS C:\Users\eulim\OneDrive\Documentos\Git> git remote add origin https://github.com/EusebioJava/Estudos.git
+PS C:\Users\eulim\OneDrive\Documentos\Git> git remote -v
+origin  https://github.com/EusebioJava/Estudos.git (fetch)
+origin  https://github.com/EusebioJava/Estudos.git (push)
+PS C:\Users\eulim\OneDrive\Documentos\Git> git add .
+PS C:\Users\eulim\OneDrive\Documentos\Git> git commit -m "3 alteracao  alteracao"
+							 git push -u origin main 
+							
